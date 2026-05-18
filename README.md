@@ -1,5 +1,5 @@
 # Power Automate Invoice Data Extraction Lab
-
+### [YouTube Demonstration]https://youtu.be/A_TgANeEj3o
 ## Project Overview
 
 This lab demonstrates how to use Microsoft Power Automate and Azure AI Document Intelligence to automate invoice processing.
@@ -52,26 +52,3 @@ This creates a repeatable workflow that could be used by accounting, finance, op
 - Store extracted invoice data in Azure Table Storage
 - Send an email notification after processing
 - Test the full automation from upload to data storage
-
-## Lab Architecture
-
-```text
-Invoice PDF Uploaded
-        |
-        v
-OneDrive or SharePoint Folder
-        |
-        v
-Power Automate Flow Trigger
-        |
-        v
-Azure AI Document Intelligence
-        |
-        v
-Extract Invoice Fields
-        |
-        v
-Azure Table Storage
-        |
-        v
-Email Notification
