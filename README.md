@@ -15,7 +15,6 @@ This lab shows how workflow automation, cloud storage, and AI-powered document p
 - Azure Storage Account
 - Azure Table Storage
 - OneDrive or SharePoint
-- PDF invoices
 - Microsoft Outlook
 - Microsoft Azure Portal
 
@@ -38,13 +37,12 @@ Many companies receive invoices through email, OneDrive, SharePoint, or internal
 
 This lab automates that process.
 
-When a new invoice PDF is uploaded to a monitored folder, Power Automate starts a flow. The flow sends the invoice to Azure AI Document Intelligence, extracts important invoice fields, stores the data in Azure Table Storage, and sends a confirmation email.
+When a new invoice email is uploaded to a monitored inbox, Power Automate starts a flow. The flow sends the invoice to Azure AI Document Intelligence, extracts important invoice fields, stores the data in Azure Table Storage, and sends a confirmation email.
 
 This creates a repeatable workflow that could be used by accounting, finance, operations, or IT teams.
 
 ## Lab Objectives
 
-- Create sample invoice PDFs
 - Upload invoices to a OneDrive or SharePoint folder
 - Create an Azure AI Document Intelligence resource
 - Use the prebuilt invoice model to extract invoice data
