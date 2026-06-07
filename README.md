@@ -6,7 +6,7 @@ This lab demonstrates how to use Microsoft Power Automate and Azure AI Document 
 
 The goal of this project is to simulate a real-world RPA-style business workflow where invoices are uploaded to a cloud folder, key invoice fields are extracted automatically, and the results are stored in a structured format for tracking and reporting.
 
-This lab shows how workflow automation, cloud storage, and AI-powered document processing can reduce manual data entry and improve business efficiency.
+This lab shows how workflow automation, cloud storage, and AI-powered document processing can reduce manual data entry and improve business efficiency
 
 ## Technologies Used
 
